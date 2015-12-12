@@ -23,7 +23,7 @@ To build, install a cross-compiler for Xtensa LX106, e.g. using crosstool-NG. Th
     PATH=~/x-tools/xtensa-lx106-elf/bin:$PATH
     mkdir build
     cd build
-    ../configure --host=xtensa-lx106-elf
+    ../configure --host=xtensa-lx106-elf --prefix=$ESP_HOME/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr
     make
 
 
