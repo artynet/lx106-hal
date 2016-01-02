@@ -25,6 +25,7 @@ To build, install a cross-compiler for Xtensa LX106, e.g. using crosstool-NG. Th
     cd build
     ../configure --host=xtensa-lx106-elf --prefix=~/x-tools/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr
     make
+    make install
 
 
 License
